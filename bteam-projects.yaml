@@ -1,0 +1,17 @@
+
+---
+apiVersion: v1
+kind: ProjectRequest
+metadata: 
+  name: bteam-dev
+---
+apiVersion: v1
+kind: ProjectRequest
+metadata: 
+  name: bteam-test
+---
+apiVersion: v1
+kind: ProjectRequest
+metadata: 
+  name: bteam-stage
+---

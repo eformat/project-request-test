@@ -1,0 +1,4 @@
+namespace: bteam-ci-cd
+
+resources:
+- bteam-projects.yaml
