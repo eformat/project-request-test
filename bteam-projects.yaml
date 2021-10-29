@@ -1,17 +1,24 @@
-
 ---
-apiVersion: v1
-kind: ProjectRequest
-metadata: 
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
   name: bteam-dev
+spec:
+  finalizers:
+  - kubernetes
 ---
-apiVersion: v1
-kind: ProjectRequest
-metadata: 
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
   name: bteam-test
+spec:
+  finalizers:
+  - kubernetes
 ---
-apiVersion: v1
-kind: ProjectRequest
-metadata: 
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
   name: bteam-stage
----
+spec:
+  finalizers:
+  - kubernetes
